@@ -1,4 +1,4 @@
 # EddieJostell.github.io
 
 # My Page about anything and everything
-## Using this for my individual assaignment
+## Page is under construction at the moment
