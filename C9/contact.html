@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link id="mycoolstyle" rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Cloud9 Contactpage</title>
+    <meta name="description" content="Contactpage for the Counter-Strike Global Offensive team Cloud9">
+</head>
+<body>
+
+    <div id="mainbox">
+        <div id="headerbox">  
+            <h1 id="topjump">Team Cloud9 Counter-Strike Global Offensive!!!</h1>   
+            <button id="button" onclick="changethemeonPage();">Change Theme</button>   
+            <ul id="mainmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Team.html">Team</a></li>
+                <li><a href="Results.html">Results</a></li>
+                <li><a href="sponsors.html">Parterns</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>   
+            <h2>Welcome to the contactpage for Cloud9!</h2>
+        </div>
+        <div id="headerbox2">
+        </div>
+        <div id="menubox">  
+        </div>
+        <div>
+            <div id="menubox1">
+                <p>On this page you can send messages to the team and the Cloud9 organization!</p>
+            </div>
+        </div>
+        <div id="menubox2">
+
+            <div id="contact">
+                <h1>Get in touch with the Cloud9 organisation and the players!</h1>
+                <div id="form">
+                    <form name="kontaktform" onsubmit="return validateForm();">
+                        <fieldset id="field">
+                            <legend id="legtext">Fill out the form below:</legend>
+                            <label>Name</label><br /><input name="namn" type="text" /><span id="namnfel"></span><br>
+                            <label>E-mail</label><br /><input name="epost" type="text" /><span id="epostfel"></span><br>
+                            <label>Subject</label><br /><input name="arende" type="text" /><span id="arendefel"></span><br>
+                            <label>Message</label><br>
+                            <textarea id="meddelande"></textarea><span id="meddelandefel"></span><br />
+                            <input type="submit" value="Send" />
+                        </fieldset>
+                    </form>
+                  <!--  <form>
+
+                    </form>-->
+                </div>  
+            </div>
+        </div>
+         <footer id="footer">
+            <a href="#topjump">Go back to the top!</a>
+            <div>
+                <p>Made by Eddie Jostell</p>
+            </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

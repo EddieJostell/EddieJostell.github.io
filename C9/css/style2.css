@@ -1,0 +1,498 @@
+﻿/* ALL BODY PAGES AND MAIN PAGE*/
+html{
+    height: 100%;
+    width: 100%;
+    min-height:100%;
+    overflow:auto;
+} 
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/c9wallinverted.jpg") no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: 800px;
+    height: 100%;
+    overflow:auto;
+
+}   
+#mainbox {
+  
+    height: 100%;
+    width: 800px;
+    min-height: 100%;     
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+#headerbox 
+{   
+    width: 100%;
+    height: 400px;
+    width: 100%; 
+    height: 300px; 
+    background-size: cover;
+}
+#headerbox p {
+    font-family:'Agency FB';
+    font-size: 25px;
+    color: black;
+}
+#button {
+    opacity: 0.4;
+}
+
+#headerbox h1
+{
+    font-family:'Agency FB';
+    margin-top: 0;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+#headerbox h2 {
+    font-family:'Agency FB';
+    margin-top: 0;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+#headerbox2
+{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+#headerbox2 h1 {
+    font-family:'Agency FB';
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+#headerbox2 h2 {
+    font-family:'Agency FB';
+    margin-top: 0;
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+#menubox
+{
+ 
+    width: 100%;
+    height: 50px;
+    border-bottom: 0px solid black;
+
+}
+#mainmenu li 
+{
+    list-style-type:upper-alpha;
+    display: inline;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-family:'Century Gothic';
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#mainmenu li a 
+{
+    text-decoration: none;
+    padding: 20px 20px; 
+   color: black;
+   font-size: 20px;
+   
+   
+}
+
+#mainmenu2 {
+    margin-top: 0px;
+    color: red;
+    background-color: yellow;
+    margin-bottom: auto;
+    
+}
+
+#menubox1 {
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+}
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+
+width: 800px;
+height: 400px;
+}
+
+#ytlink {
+    color: black;
+}
+#menubox2{
+    
+    width: 100%;
+    height: 700px;
+    margin-left: 40px; 
+}
+#menubox2 li a {
+    list-style-type: none;
+    color: black;
+    font-family:'Agency FB';
+    font-size: 25px;
+   
+}
+#menubox2 li {
+    padding-top: 40px;
+
+}
+
+#menubox2 p {
+
+    color: black;
+    font-size: 20px;
+    font-family: 'Agency FB';
+
+}
+.links {
+    color: black;
+    font-size: x-large;
+}
+#bild {
+    width: 350px;
+    height: 250px;
+    margin-left: 200px;
+    opacity: 0.8;
+}
+#footer {
+    color: black;
+    font-family: 'Agency FB';
+    font-size: 30px;
+    text-align: center;
+}
+
+#footer a {
+    color: black;
+    font-family: 'Agency FB';
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* TEAM PAGE */
+#headerbox3 
+{
+  margin-top: 80px;
+}
+#headerbox3 h1 {
+     color: black;
+     font-family:'Agency FB';
+     text-align: center;
+     font-size: 50px;
+
+ }
+#headerbox3 h2 {
+    color: black;
+     font-family:'Agency FB';
+     text-align: center;
+     font-size: 40px;
+}
+#teambox {
+    
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Century Gothic';
+}
+
+.cloud9 {
+    width: 100px;
+    height: 100px;
+}
+#stewie2k {
+   float: left;
+   clear: both;
+   margin-left: 50px;
+}
+#not {
+    
+    float: right;
+    margin-right: 20px;
+}
+#autimatic {
+    margin-left: 50px;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+}
+#shroud {
+    margin-right: 15px;
+    float: right;
+}
+#skadoodle {
+    margin-left: 50px;
+    margin-top: 20px;
+    clear: both;
+    float: left;
+}
+
+#danan {
+    margin-right: 15px;
+    float: right;
+}
+
+/*Results Page*/
+#headerbox4 
+{
+   width: 100%;
+   height: 100px;
+
+}
+#headerbox4 h1 {
+    font-family:'Agency FB';
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+#leaguebox {
+    font-family:'Agency FB';
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.esea {
+    
+    padding: 20px;
+    border-spacing: 12px;
+    color: black;
+    text-align: center;
+    font-family:'Times New Roman';
+    
+}
+.esea th {
+    color: black;
+    font-size: 30px;
+}
+
+#resultbox {
+    
+    width: 100%;
+    height: 700px;
+    margin: auto;
+}
+/*Sponsor Page*/
+#sponsorbox {
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+#sponsorbox h2 {
+    color:black;
+}
+ h3 {
+    color: black;
+}
+.sponsor {
+    width: 350px;
+    height: 118px;
+}
+#hyperx img {
+
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    opacity: 0.2;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#logitech img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.2;
+    
+}
+
+#lootgaming img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    opacity: 0.3;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+#htc img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.3;
+}
+
+#g2a img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    opacity: 0.3;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#ibpower img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.3;
+}
+
+#zowie img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    opacity: 0.3;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#msi img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.3;
+}
+
+#intel img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    opacity: 0.3;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#nvidia img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.3;
+}
+
+#crunchyroll img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    opacity: 0.3;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+#redbull img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding-right: 10px;
+    float: right;
+    opacity: 0.3;
+}
+
+/*Contact Page*/
+#teampic {
+    margin-left: 220px;
+    width: 450px;
+    height: 200px;
+    opacity: 0.6;
+    margin: 0 auto;
+   
+   
+}
+.imagecontainer {
+    margin: 0 auto;
+    
+}
+
+#form {
+    font-family: 'Agency FB'; 
+    font-size: 25px;
+    margin-right: 130px;
+}
+
+#contact {
+    color: black;
+}
+#contact h1 {
+    color: black;
+    font-family: 'Agency FB';
+    font-size: 25px;
+    text-align: center;
+}
+#legtext {
+    
+    color: black;
+    font-size: 35px;
+    font-family: 'Agency FB';
+}
+#field {
+    border-color: black;
+}
+
+/*från klass övningen formulär*/
+/*#namnfel {
+    color: red;
+}
+#epostfel {
+    color: red;
+}
+#arendefel {
+    color: red;
+}
+#meddelandefel {
+    color: red;
+}*/
