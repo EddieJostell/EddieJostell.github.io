@@ -5,57 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/navbarstyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/menumaker.css">
     <title>Eduardos GitHub Page</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-            <div class=b b "container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-                        aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-                    <a class="navbar-brand" href="#">MY GITHUB PAGE</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse id=" navbar "">
-                    <ul class="nav navbar-center navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
-                            <ul class="dropdown-menu inverse-dropdown" role="menu">
-                                <li><a href="https://www.youtube.com/user/eddzor/videos" target="_blank">Youtube</a></li>
-                                <li><a href="ToDo/index.html">Todo-app</a></li>
-                                <li><a href="C9/index.html" target="_blank">Cloud9-page</a></li>
-                                <li><a href="#">Another link</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
+        <nav id="cssmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="">Project</a>
+                    <ul>
+                        <li>
+                            <a href="#">Project HTML&CSS</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Sub Project</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sub Project</a>
+                                </li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact</a></li>
-
+                        <li>
+                            <a href="#">Project JS</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Sub Project</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sub Project</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <!--<li><a href="#" data-toggle="modal" data-target="#myModal">New Post</a></li>-->
-
-                    </ul>
-                </div>
-                <!--</.nav-collapse-->
-            </div>
-            <!--</.container-fluid-->
-        </nav>
-        <!--  <nav>
-            <ul class="topnav" id="myTopnav">
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+            <!--    <ul class="topnav" id="myTopnav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#news">News</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -73,8 +66,8 @@
                 <li class="icon">
                     <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
                 </li>
-            </ul>
-        </nav>-->
+            </ul>-->
+        </nav>
     </header>
     <main>
         <section class="sec-one">
@@ -83,10 +76,12 @@
             <img class="construct" src="img/fire-under-construction-animation.gif" alt="Under Construction">
         </section>
     </main>
-    
-    <script src="js/script.js" type="text/javascript"></script>
+
+    <script src="js/script.js" type="text/javascript">
+    $("#cssmenu").menumaker();
+    </script>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/menumaker.js"></script>
 </body>
 
 </html>
