@@ -11,6 +11,18 @@ html,body {
     background: black;
     
 }
+.homeBtn {
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /*margin-top: 25px;*/
+    outline: none;
+}
 
 main {
     width: 1000px;
