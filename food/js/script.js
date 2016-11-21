@@ -21,12 +21,12 @@ function addfoodNetwork() {
          lasagne = new foodNetwork("Lasagne med köttfärssås", false, "http://www.koket.se/lasagne-med-kottfarssas"),
          corn = new foodNetwork("Majsplättar med avokadoröra", true, "https://www.mathem.se/recept/mattias-majsplattar-med-avokado-chimichurri"),
          soppachori = new foodNetwork("Grönkålssoppa med chorizo", false, "http://www.matklubben.nu/recept/gr%F6nk%E5lssoppa_med_chorizo_122704.html#.WCxTNcn3b9I"),
-       /*pasta = new foodNetwork("Pastagratäng med rökt lax och spenat.", false, "www.ica.se/recept/pastagratang-med-rokt-lax-och-spenat-719271/"),*/
+         pasta = new foodNetwork("Pastagratäng med rökt lax och spenat.", false, "http://www.ica.se/recept/pastagratang-med-rokt-lax-och-spenat-719271/"),
          thaiChicken = new foodNetwork("Thaigryta med kyckling", false, "http://www.koket.se/mitt-kok/donal-skehan/thaigryta-med-kyckling/"),
          salmon = new foodNetwork("Lax med nudelsallad", false, "https://www.mathem.se/recept/gustavs-sesamstekta-lax-med-varm-nudelsallad--lime-och-koriander"),
-         /*lasagnehall = new foodNetwork("Lasagne med halloumi, spenat och pumpakärnor", true, "www.ica.se/recept/lasagne-med-halloumi-spenat-och-pumpakarnor-718382/"),*/
-         /*risotto = new foodNetwork("Rödbetsrisotto med hyvlad halloumi och valnötter", true, "www.ica.se/recept/rodbetsrisotto-med-hyvlad-halloumi-och-valnotter-720045/"),*/
-         /*tuna = new foodNetwork("Halstrad tonfisk med avokadohummus", false, "www.ica.se/recept/halstrad-tonfisk-med-avokadohummus-719975/"),*/
+         lasagnehall = new foodNetwork("Lasagne med halloumi, spenat och pumpakärnor", true, "http://www.ica.se/recept/lasagne-med-halloumi-spenat-och-pumpakarnor-718382/"),
+         risotto = new foodNetwork("Rödbetsrisotto med hyvlad halloumi och valnötter", true, "http://www.ica.se/recept/rodbetsrisotto-med-hyvlad-halloumi-och-valnotter-720045/"),
+         tuna = new foodNetwork("Halstrad tonfisk med avokadohummus", false, "http://www.ica.se/recept/halstrad-tonfisk-med-avokadohummus-719975/"),
          wildHog = new foodNetwork("Viltskavsgryta med mandelpotatispuré & rårörda lingon", false, "https://www.mathem.se/recept/viltskavsgryta-med-mandelpotatispure-o-rarorda-lingon"),
          coq = new foodNetwork("Coq Au Vin", false, "http://www.foodnetwork.com/recipes/ina-garten/coq-au-vin-recipe4.html"),
          indianSoup = new foodNetwork("Indisk linssoppa ”Mulligatawny”", true, "http://www.ica.se/recept/indisk-linssoppa-mulligatawny-718554/"),
