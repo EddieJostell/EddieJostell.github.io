@@ -81,3 +81,12 @@ function randomizeFood() {
 function showFood() {
     randomizeFood();
 }
+
+// SHOW A DISH ON PAGE LOAD
+function onStartup() {
+    var r = Math.floor(Math.random() * foodArray.length);
+        foodLink.innerHTML = foodArray[r].name;
+        foodLink.href = foodArray[r].url;
+}
+
+onStartup();
