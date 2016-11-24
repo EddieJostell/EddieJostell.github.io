@@ -8,6 +8,7 @@ function newTask() {
  
     var li = document.createElement("li");
     li.style.color = "red";
+    li.style.listStyleType = "none";
     li.style.wordWrap = "break-word";
     li.appendChild(textWritten);
     if (inputValue === "") {
