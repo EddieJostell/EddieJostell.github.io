@@ -1,13 +1,9 @@
 
 
 html,body {
-	  background: url("../img/A7rx0J4.jpg") no-repeat center center fixed;
+	background: url("../img/A7rx0J4.jpg") no-repeat center center fixed;
     margin-top: 0;
-    max-height: 100%;
-    max-width: 100%;
-    /*bottom: 100%;
-    padding: 0px;*/
-   
+    padding: 0;
 }
 
 header {
