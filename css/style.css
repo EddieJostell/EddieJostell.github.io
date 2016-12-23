@@ -1,4 +1,9 @@
 
+* {
+	box-sizing: border-box;
+	margin-top: 0;
+    padding: 0;
+}
 
 html,body {
 	background: url("../img/A7rx0J4.jpg") no-repeat center center fixed;
@@ -6,10 +11,25 @@ html,body {
     padding: 0;
 }
 
+.hero {
+  background-image: url("../img/vstl.jpg");
+  background-attachment: fixed;
+  background-position: 80% 30%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  height: 600px;
+ /* display: flex;
+  align-items: center;
+  justify-content: center;*/
+  color: #fff; 
+  width: 100%;
+  }
+
 header {
   width: 50%;
   height: 50px;
-  margin-left: 30%;
+  /*margin-left: 30%;*/
+  margin: 0 auto;
 }
 
 main {
@@ -20,7 +40,8 @@ main {
 }
 
 .sec-one {
-  margin-top: 100px;
+  margin-top: 300px;
+  border: 1px solid red;
 }
 
 .sec-one h1{
@@ -35,8 +56,6 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
-
 
 
 
@@ -117,7 +136,7 @@ ul li a:hover + .hidden, .hidden:hover {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: #fff;
-	background: #19c589;
+	background: #111;
 	text-align: center;
 	padding: 10px 0;
 	display: none;
