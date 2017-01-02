@@ -1,0 +1,43 @@
+$primary-color: #212121;
+$link-items: red;
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+    width: 100%;
+	background: $primary-color;
+}
+
+.container {
+	width: 1300px;
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+	.list-item {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: yellow;
+	background-color: blue;
+
+	&:before {
+
+	 content: "console.log('";
+	 color: $link-items;
+	}
+
+    &:after {
+     content: "');";
+     color: $link-items;
+    }
+
+	}
+
+}
+
