@@ -1,5 +1,29 @@
 * {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-}
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  width: 100%;
+  background: #212121; }
+
+.container {
+  width: 1300px;
+  display: block;
+  margin: 0 auto;
+  list-style-type: none; }
+  .container .list-item {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: yellow;
+    background-color: blue; }
+    .container .list-item:before {
+      content: "console.log('";
+      color: red; }
+    .container .list-item:after {
+      content: "');";
+      color: red; }
+
+/*# sourceMappingURL=links.css.map */
