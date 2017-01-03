@@ -8,22 +8,30 @@ html, body {
   background: #212121; }
 
 .container {
-  width: 1300px;
+  width: 500px;
   display: block;
   margin: 0 auto;
   list-style-type: none; }
-  .container .list-item {
-    text-decoration: none;
+  .container p {
+    margin: 0;
+    color: yellow; }
+    .container p:before {
+      content: "console.log('";
+      color: cornflowerblue; }
+    .container p:after {
+      content: "');";
+      color: cornflowerblue; }
+  .container ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    color: yellow;
-    background-color: blue; }
-    .container .list-item:before {
-      content: "console.log('";
-      color: red; }
-    .container .list-item:after {
-      content: "');";
-      color: red; }
+    margin: 0; }
+    .container ul li {
+      margin-bottom: 15px; }
+    .container ul li a {
+      color: white;
+      text-decoration: none; }
+    .container ul li:before {
+      color: pink;
+      content: ' var '; }
 
 /*# sourceMappingURL=links.css.map */
