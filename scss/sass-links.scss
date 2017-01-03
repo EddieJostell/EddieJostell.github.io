@@ -1,6 +1,10 @@
-$primary-color: #212121;
+$primary-color: black;
 $link-items: red;
 
+@font-face {
+    font-family: ScriberFont;
+    src: url(../fonts/Scriber_Bold_Stencil.otf);
+}
 
 * {
 	box-sizing: border-box;
@@ -10,8 +14,13 @@ $link-items: red;
 
 html,body {
 	width: 100%;
+	height: 100%;
 	background: $primary-color;
+	font-family: ScriberFont;
 }
+
+
+
 
 .container {
 	padding-top: 100px;
@@ -22,17 +31,17 @@ html,body {
 
 	p {
 		margin: 0;
-		color: yellow;
+		color: #5bc0be;
 		
 		&:before {
 			content: "console.log('";
-			color: cornflowerblue;
+			color: #2b2d42;
 			font-size: 1.2rem;
 		}
 		
 		&:after {
 			content: "');";
-			color: cornflowerblue;
+			color: #2b2d42;
 			font-size: 1.2rem;
 		}
 	}
@@ -45,20 +54,74 @@ html,body {
 			margin-bottom: 15px;
 		}
 		li a {
-			color: white;
+			color: #edf2f4;
 			text-decoration: none;
 			font-size: 1.5rem;
 		}
 		li:before {
-			color: pink;
+			color: #6fffe9;
 			content: ' var ';
 			font-size: 1.5rem;
 		}
 		li a:after {
-			color: white;
+			color: #edf2f4;
 			content: ';';
 		}
 	}
 }
 
 
+
+
+.glitch{
+  color:white;
+  font-size:50px;
+  position:relative;
+  width:400px;
+  margin:0 auto;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:after{
+  content:attr(data-text);
+  position:absolute;
+  left:2px;
+  text-shadow:-1px 0 red;
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim 2s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+.glitch:before{
+  content:attr(data-text);
+  position:absolute;
+  left: -2px;
+  text-shadow:1px 0 blue; 
+  top:0;
+  color:white;
+  background:black;
+  overflow:hidden;
+  clip:rect(0,900px,0,0); 
+  animation:noise-anim-2 3s infinite linear alternate-reverse;
+}

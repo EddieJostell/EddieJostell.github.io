@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  width: 100%;
+  background: #212121; }
+
+.container {
+  padding-top: 100px;
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  list-style-type: none; }
+  .container p {
+    margin: 0;
+    color: yellow; }
+    .container p:before {
+      content: "console.log('";
+      color: cornflowerblue;
+      font-size: 1.2rem; }
+    .container p:after {
+      content: "');";
+      color: cornflowerblue;
+      font-size: 1.2rem; }
+  .container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    .container ul li {
+      margin-bottom: 15px; }
+    .container ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem; }
+    .container ul li:before {
+      color: pink;
+      content: ' var ';
+      font-size: 1.5rem; }
+    .container ul li a:after {
+      color: white;
+      content: ';'; }
+
+/*# sourceMappingURL=sass-links.css.map */
