@@ -28,46 +28,6 @@ html,body {
 	display: block;
 	margin: 0 auto;
 	list-style-type: none;
-
-	p {
-		margin: 0;
-		color: #5bc0be;
-		
-		&:before {
-			content: "console.log('";
-			color: #2b2d42;
-			font-size: 1.2rem;
-		}
-		
-		&:after {
-			content: "');";
-			color: #2b2d42;
-			font-size: 1.2rem;
-		}
-	}
-
-	ul {
-		list-style-type: none;
-		padding: 0;
-		margin: 0;
-		li {
-			margin-bottom: 15px;
-		}
-		li a {
-			color: #edf2f4;
-			text-decoration: none;
-			font-size: 1.5rem;
-		}
-		li:before {
-			color: #6fffe9;
-			content: ' var ';
-			font-size: 1.5rem;
-		}
-		li a:after {
-			color: #edf2f4;
-			content: ';';
-		}
-	}
 }
 
 
