@@ -160,12 +160,14 @@ header {
   background-image: url('../img/macapple.jpg');
   text-align: center;
   color: white;
+  perspective: 1000px;
 }
 header .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  perspective: 1000px;
 }
 /*Modified with transform: rotateY(50deg)*/
 header .header-content .header-content-inner h1 {
@@ -174,10 +176,12 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 30px;
+  transform: rotateX(50deg) rotateZ(-5deg); 
 }
 /*Modified with transform: rotateY(50deg)*/
 header .header-content .header-content-inner hr {
   margin: 30px auto;
+  transform: rotateX(50deg) rotateZ(-5deg);
 }
 /*Modified with transform: rotateY(50deg)*/
 header .header-content .header-content-inner p {
@@ -185,6 +189,7 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+  transform: rotateX(50deg) rotateZ(-7deg);
 }
 @media (min-width: 768px) {
   header {
@@ -418,4 +423,9 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+
+.tilt {
+  margin-top: -65px;
+  transform: rotateY(50deg) rotateZ(-3.5deg);
 }
