@@ -1,0 +1,41 @@
+/*FOOTER START*/
+/*FOOTER END*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  padding: 15px 0;
+  width: 100%;
+  height: 15rem;
+  background-color: #e71d36;
+}
+footer h2 {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: white;
+  margin: 1rem 0 0 2rem;
+  font-size: 1.5rem;
+}
+footer p {
+  font-family: "Roboto";
+  font-weight: 300;
+  color: white;
+  margin: 1rem 0 0 2rem;
+}
+
+.icon-size {
+  font-size: 90px;
+  margin: 1rem 0 0 2rem;
+}
+
+@media (min-width: 1366px) {
+  footer {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

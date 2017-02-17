@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500");
+footer {
+  background-color: #e71d36;
+  padding: 2rem;
+}
+footer h2 {
+  margin-top: 0px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+footer p {
+  margin-top: 0px;
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=footer.css.map */

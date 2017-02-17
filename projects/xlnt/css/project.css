@@ -1,0 +1,92 @@
+.project-h1{
+	margin: 1rem 0 0 0;
+    font-family: "Roboto";
+    font-weight: 400;
+	font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.project-p{
+	margin: 1rem 0 1rem 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: italic;
+	font-size: 1rem;
+    text-align: center;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.flex-img{
+  width: 13rem;
+}
+.flex-img img{
+  width: 100%; 
+}
+.page-3-flex-container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.page-3-flex-container2{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.page-3{
+	height: 100%;
+}
+.page-3-title-h1{
+	margin-top: 3rem;
+}
+@media(min-width: 1366px){
+.flex-img{
+	width: 16rem;
+}
+.project-h1{
+	font-size: 2rem;
+}
+.project-p{
+	font-size: 1.5rem;
+}
+.page-3-flex-container{
+  flex-direction: row;
+  width: 100%;
+  padding: 0 6rem;
+}
+.page-3-flex-container2{
+  flex-direction: row;
+  width: 100%;
+  padding: 0 6rem;
+}
+
+.page-3 {
+  height: 80rem;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1366px){
+
+.page-3-title-h1{
+  margin-top: 7rem;
+}
+
+
+.page-3-flex-container{
+  flex-direction: row;
+  width: 100%;
+  margin-top: 8rem;
+}
+.page-3-flex-container2{
+  flex-direction: row;
+  width: 100%;
+}
+
+.page-3 {
+  height: 80rem;
+}
+
+.page-3-p {
+  margin-top: 8rem;
+}
+}

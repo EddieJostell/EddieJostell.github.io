@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
+
+@mixin Robo-font() {
+	margin-top: 0px;
+	color: white;
+	font-family: "Roboto";
+	font-weight: 300;
+}
+
+footer {
+	background-color: #e71d36;
+	padding: 2rem;
+
+	h2 {
+		@include Robo-font;
+	}
+
+	p {
+		@include Robo-font;
+	}
+}

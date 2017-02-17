@@ -1,0 +1,84 @@
+/*FOOTER START*/
+@mixin Robo-font() {
+	font-family: "Roboto";
+	font-weight: 300;
+}
+
+@mixin zero-padd-marg() {
+	padding: 0;
+	margin: 0;
+}
+
+@mixin footer-color-margin(){
+  color: white;
+  margin: 1rem 0 0 2rem;
+}
+/*FOOTER END*/
+
+/*RESPONSIVE START*/
+@mixin flex-center() {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin font-stuff-h1() {
+	font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+@mixin font-stuff-p() {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+@mixin font-stuff-h1-desktop() {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+@mixin font-stuff-p-desktop() {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+/*RESPONIVE END*/
+
+/*MAIN START*/
+
+@mixin FONT() {
+    font-family: "Roboto"; 
+    font-weight: 300;
+}
+
+@mixin FLEX() {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin btn-specs() {
+    border: 2px solid #000000;
+    background-color: rgba(0,0,0,0.0);
+}
+
+@mixin background-color() {
+  background-color: #fafafa;
+}
+
+@mixin links() {
+    cursor: pointer;
+}
+
+/*MAIN END*/

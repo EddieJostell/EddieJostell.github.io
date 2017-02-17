@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500');
+@import "mixins";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*second section*/
+.responsive {
+	width: 100%;
+	height: 45rem;
+	padding: 35px 0;
+	@include flex-center;
+
+    h1 {
+        @include font-stuff-h1;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    div {
+        width: 6rem;
+        height: 0.2rem;
+        background-color: #f26522;
+        margin: 0 auto;
+        margin: 2rem 0 2rem 0;
+    }
+
+    p {
+        @include font-stuff-p;
+        margin: 1rem 0 0 0;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    img {
+        margin: 2rem 0 0 0;
+        width: 80%;
+    }
+
+}
+
+/*iPad media query*/
+@media (min-width: 768px) and (max-width: 1365px) {
+
+    .responsive {
+        width: 100%;
+        height: 45rem;
+        padding: 35px 0;
+        @include flex-center;
+
+        div {
+            width: 6rem;
+            height: 0.2rem;
+            background-color: #f26522;
+            margin: 0 auto;
+            margin: 2rem 0 2rem 0;
+        }
+
+        p {
+            @include font-stuff-p;
+            margin: 2rem 0 0 0;
+            text-align: center;
+            padding: 0 4rem;
+        }
+        img {
+            margin: 2rem 0 0 0;
+            width: 50%;
+        }
+    }
+}
+
+/*Desktop media query*/
+@media (min-width:1366px){
+  .responsive {
+    width: 100%;
+    height: 80rem;
+    padding: 35px 0;
+    @include flex-center;
+
+ h1 {
+        @include font-stuff-h1-desktop;
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    div {
+        width: 6rem;
+        height: 0.2rem;
+        background-color: #f26522;
+        margin: 0 auto;
+        margin: 2rem 0 2rem 0;
+    }
+
+    p {
+        @include font-stuff-p-desktop;
+        margin: 8rem 0 0 0;
+        text-align: center;
+        padding: 0 8rem;
+    }
+    img {
+        margin: 8rem 0 0 0;
+        width: 42rem;
+        height: 32rem;
+    }
+ }
+}
+

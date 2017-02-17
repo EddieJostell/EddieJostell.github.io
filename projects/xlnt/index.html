@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="icon" href="img/xlnthead.png">
+	<title>XLNT</title>
+</head>
+
+<body>
+	<div class="bg-color">
+		<div class="navdiv" id="nojsHem">
+			<nav class="navbar">
+				<ul class="flex-box">
+					<li class="test">
+						<a href="index.html"><img class="logo-img" src="img/xlnt-logo-official-new.png" alt="XLNT Media logo"></a>
+					</li>
+					<noscript>
+						<ul class="lihidden">
+							<li class="lihidden"><a href="#nojsHem">Hem</a></li>
+							<li class="lihidden"><a href="#nojsResp">Responsiv Design</a></li>
+							<li class="lihidden"><a href="#nojsProj">Tidigare Projekt</a></li>
+							<li class="lihidden"><a href="#nojsKont">Kontakta Oss</a></li>
+						</ul>
+						</noscript>
+					
+					
+					<li class="hamburger-position">
+						<div id="nav-icon" onclick="buttonpress()">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</li> 
+				</ul>
+
+				<div class="box active">
+					<ul class="menuDropdownUL">
+						<div class="menuscroll" onclick="notTrue() ,smoothScroll(document.getElementById('hem'))">
+							<li class="menuDropdown">Hem</li>
+						</div>
+						<div class="menuscroll" onclick="notTrue() ,smoothScroll(document.getElementById('responsiv'))"><li class="menuDropdown">Responsiv design</li></div>
+						<div class="menuscroll" onclick="notTrue() ,smoothScroll(document.getElementById('tidigare'))">
+							<li class="menuDropdown">Tidigare projekt</li>
+						</div>
+						<div class="menuscroll" onclick="notTrue() ,smoothScroll(document.getElementById('team'))">
+							<li class="menuDropdown">Vårat team</li>
+						</div>
+						<div class="menuscroll" onclick="notTrue() ,smoothScroll(document.getElementById('kontakt'))">
+							<li class="menuDropdown">Kontakta oss</li>
+						</div>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<section class="page-1"><div id="hem"></div>
+			<div class="page-1-div">
+				<h1 class="page-1-title-h1">En ny webbyrå med fokus på frontend och responsiv design</h1>
+				<div class="orange-page-1"></div>
+					<noscript>
+					<div class="nojsDIV">
+					<h2> Hej ! Det verkar som att du inte har Javascript aktiverat.</h2>
+					<h2> Du kommer kunna komma åt den viktigaste informationen på sidan men alla funktioner kommer inte att fungera. </h2>
+					</div>
+					</noscript>
+
+				<button class="btn-page-1" onclick="buttonScroll(), smoothScroll(document.getElementById('kontakt'))">
+				<noscript><a class="hiddenButton"  href="http://google.com"><div class="hiddenButton" ></div></a></noscript>Kontakta oss</button>
+			</div>
+		</section>
+		<div id="responsiv"></div>
+		<section class="page-2" id="nojsResp">
+
+			<h1 class="page-2-title-h1" >Vi är experter på responsiv design</h1>
+			<div class="orange-page-2"></div>
+			<img src="img/responsive-web-design.png" alt="phone-tablet-laptop-desktop">
+			<p class="page-2-p">
+				Vi bygger webplatser för alla dina enheter 
+				med en smidig responsiv design 
+				för att få maxial upplevelse på din hemsida. 
+			</p>
+			<a href="views/responsive.html" class="btn-page-2">Läs mer</a>
+		</section>
+		<div id="tidigare"></div>
+		<section class="page-3" id="nojsProj">
+			<h1 class="page-3-title-h1">Smakprov på våra projekt</h1>
+			<div class="orange-page-3"></div>
+			<img class= "projectImg" src="img/webDevelopment.png" alt="html5-css-JS-laptop">
+			<p class="page-3-p">
+				Ett urval av våra projekt med några av våra nöjda kunder!
+			</p>
+			<a href="views/projects.html" class="btn-page-3">Läs mer</a>
+		</section>
+		<div id="team"></div>
+		<section class="page-4" id="bg-door">
+
+			<h1 class="page-2-title-h1">Vårat team</h1>
+			<div class="orange-page-3"></div>
+				<p class="page-4-p">
+					År 2016 så började vi vår resa tillsammans på Nackademin i Stockholm och vi bestämde oss för att starta en egen webbyrå.
+					Vill du lära känna oss bättre så kan du trycka här.
+				</p>
+				<img class="teamPic" src="img/teamjpg.jpg" alt="team">
+			<a href="views/team.html" class="btn-page-4">Läs mer!</a>
+			</section>
+			<div id="kontakt"></div>
+			<section class="page-5" id="nojsKont">
+				<h1 class="page-5-title-h1">Kontakta oss</h1>
+				<div class="orange-page-5"></div>
+				<p class="page-5-p">
+					Det spelar ingen roll om du vill att vi ska designa din sida eller om du bara vill ställa en enkel fråga,
+					skriv till oss och vi kommer att försöka svara så fort vi kan !
+				</p>
+				<form>
+					<input class="contact" type="text" name="name" placeholder="Namn">
+					<input class="contact" type="text" name="email" placeholder="Email">
+					<textarea class="txt-style" placeholder="Kommentar"></textarea> 
+					<input class="btn-page-5" type="submit" name="Skicka">
+				</form>
+			</section>
+			<footer>
+				<h2>Adress</h2>
+				<p>Sjumilaskogen 7</p>
+				<p>1337 - Stockholm</p>
+				<h2>Följ oss</h2>
+				<a href="#"><i class="fa fa-facebook icon-size" aria-hidden="true" style="color:white"></i></a>
+				<a href="#"><i class="fa fa-twitter icon-size" aria-hidden="true" style="color:white"></i></a>
+				<a href="#"><i class="fa fa-linkedin icon-size" style="color:white"></i></a>
+<a href="boot/index.html">Boot</a>
+			</footer>
+
+			<script src="https://use.fontawesome.com/656255a524.js"></script>
+			<script type="text/javascript" src="js/main.js"></script>
+		</div>
+	</body>
+	</html>

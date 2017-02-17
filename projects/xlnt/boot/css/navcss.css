@@ -1,0 +1,158 @@
+
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+
+.container-fluid{
+  padding:0;
+  margin:0;
+}
+
+.navbar {
+  margin-bottom:0px;
+  border-radius:0px;
+  border:0px;
+}
+  
+@media (max-width: 10000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+        border: none;
+        outline: none;
+    }
+    
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+}
+
+.liBoot{
+  color:white;
+  margin:0 auto;
+  padding-top:1.2rem;
+  padding-bottom: 1.2rem;
+  list-style:none;
+  text-decoration: none;
+  text-align:center;
+
+}
+#logoMenu{
+  width:130px;
+  padding-bottom:;
+  vertical-align: middle;
+  margin:0.3em 0em 0.3em 0.3em;
+}
+
+.centernav{
+  left:16.66%;
+}
+@media (max-width: 1200px){
+.centernav{
+  left:0%;
+}
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+  background-color: #f26522;
+}
+.navbar-toggle .icon-bar{
+  height:5px;
+  width:45px;
+  border-radius: 9px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top:7px;
+}
+
+a {
+  color:white;
+  text-decoration: none;}    
+
+a:visited {
+  color:white;
+  text-decoration: none;
+}  
+
+a:hover {
+  color:white;
+  text-decoration: none;
+} 
+
+a:active {
+  color:white;
+   text-decoration: none;
+}  
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+  border-color: transparent;
+}
+button:hover{
+  border-color: transparent;
+}
