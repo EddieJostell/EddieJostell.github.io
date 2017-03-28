@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+	height: auto;
+	background: #E8CBC0; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #E8CBC0 , #636FA4); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #E8CBC0 , #636FA4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-position: center center;
+	background-repeat: no-repeat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Raleway";
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+	color: white;
+}
+
+form a {
+	color: white;
+}
+
+.m-top {
+	margin-top: 56px;
+}
+
+.newsContainer {
+	display:none;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.newsContainer.visible {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.showNews {
+	height: auto;
+	margin: 0.5rem 5px 35px 0;
+	display: inline-block;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.showNews p  {
+	color: black;
+	font-size: 1rem;
+	overflow-wrap: break-word;
+}
+
+.showNews a {
+	overflow-wrap: break-word;
+}
+
+.savedNewsContainer  {
+	background-color: black;
+}
+
+.img-responsive {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+.pt-15 {
+	padding-top: 15px !important;
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+}
+
+footer {
+	border: 0.5px solid white;
+	background-color: black;
+}
+
+footer h5 {
+	color: white;
+}
+
+footer a {
+	color: white;
+}
+
+#loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	background-image: url('http://media3.giphy.com/media/12NUbkX6p4xOO4/giphy-downsized.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 1000;
+}
