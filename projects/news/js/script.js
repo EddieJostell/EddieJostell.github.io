@@ -289,7 +289,7 @@ const newsMod = (() => {
 			//Function that controls the loading gif
 			//setTimeout for 2 seconds then the divs with the news are shown.
 			//and the newsOutput & mostInteresting div that shows the articles when the page is loaded.
-			$(document).on('mobileinit',function() {
+			$(document).ready(function() {
 				setTimeout(function(){ 
 					$('#loading').fadeOut(250, function() {
 						$('#newsOutput, #mostInteresting').addClass('visible');
