@@ -194,7 +194,7 @@ const newsMod = (() => {
 			//Set to allow cross-origin requests
 			//Makes the post then alerts that it has been saved
 			//If something goes wrong the .catch function will say it failed and give a error messag statitng what went wrong.
-			fetch('http://localhost:3000/articles', {
+			fetch('https://project-news.herokuapp.com/articles', {
 				method: 'POST', 
 				mode: 'cors',
 				body: button.dataset.article,
@@ -218,7 +218,7 @@ const newsMod = (() => {
 		getArticlesFromDatabase: () => {
 			//fetch GET the saved articles from the "database" and format them into JSON.
 			//Loop through the array send the info forward to the next function.
-			fetch('http://localhost:3000/articles') 
+			fetch('https://project-news.herokuapp.com/articles') 
 			.then((response) => {
 				return response.json();
 			})
@@ -268,7 +268,7 @@ const newsMod = (() => {
 		},
 		deleteArticlesFromHTML: (articleId) => {
 			console.log(articleId);
-			fetch(`http://localhost:3000/articles/${articleId}`, {
+			fetch(`https://project-news.herokuapp.com/articles/${articleId}`, {
 				method: 'DELETE', 
 				mode: 'cors', 
 				redirect: 'follow',
